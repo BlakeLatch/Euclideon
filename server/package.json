@@ -1,0 +1,36 @@
+{
+  "name": "BE_euclideon",
+  "version": "1.0.0",
+  "description": "To setup NodeJS you need to follow these steps:",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.13.0",
+    "mongodb": "^4.0.0",
+    "mongoose": "^5.13.13",
+    "passport": "^0.5.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google": "^0.3.0",
+    "passport-linkedin": "^1.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket-students.deakin.edu.au/scm/dimm-ug/euclideon.git"
+  }
+}

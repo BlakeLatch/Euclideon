@@ -1,0 +1,17 @@
+
+.col-75 {
+	max-height: 200px;
+}
+
+.text-area {
+	resize: vertical;
+	max-height: 200px;
+}
+
+.link-insert {
+	resize: horizontal;
+	max-width: 700px;
+	overflow-y: hidden;
+	overflow-x: auto;
+	white-space: nowrap;
+}

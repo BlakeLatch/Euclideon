@@ -1,0 +1,11 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-height: 650px) {
+  .filters {
+    flex-direction: row;
+  }
+}

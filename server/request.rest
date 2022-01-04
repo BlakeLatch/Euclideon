@@ -1,0 +1,98 @@
+GET http://localhost:8080/getContent
+Content-Type: application/json
+
+###
+GET http://localhost:8080/api/getContent
+Content-Type: application/json
+
+
+###
+POST http://localhost:8080/api/createContent
+Content-Type: application/json
+
+{
+    
+    "type": "Health",
+    "icon": "icon/health.png",
+    "name":"Khalid",
+    "position":[
+        {
+            "coordinates": [145.1426724025721, -37.87817162545357]
+        }
+    ],
+    "imgs":[
+        {
+            "imgSrc":  "https://bit.ly/33BvR19",
+            "picSrc":  "https://i.ytimg.com/vi/RjYk8ziP7po/maxresdefault.jpg"
+        }
+    ],
+    "link":  "https://www.waverleyprivate.com.au",
+    "desc":  "Waverley Private Hospital is a 98 bed acute/surgical facility located in the Eastern Suburbs of Melbourne. Waverley Private Hospital has been an active contributor to the healthcare needs of the local communities of Eastern and South Eastern Melbourne since 1972. We pride ourselves on providing excellent standards of healthcare in a friendly and caring environment.",
+    "show":  true
+
+}
+###
+
+GET  http://localhost:8080/api/findContent
+Content-Type: application/json
+
+{
+    "name": "Khalid"
+}
+###
+POST  http://localhost:8080/api/insertContent
+Content-Type: application/json
+
+{
+    "type": "Health",
+    "icon": "icon/health.png",
+    "name":"Khalid",
+    "position":[
+        {
+            "coordinates": [145.1426724025721, -37.87817162545357]
+        }
+    ],
+    "imgs":[
+        {
+            "imgSrc":  "https://bit.ly/33BvR19",
+            "picSrc":  "https://i.ytimg.com/vi/RjYk8ziP7po/maxresdefault.jpg"
+        }
+    ],
+    "link":  "https://www.waverleyprivate.com.au",
+    "desc":  "Waverley Private Hospital is a 98 bed acute/surgical facility located in the Eastern Suburbs of Melbourne. Waverley Private Hospital has been an active contributor to the healthcare needs of the local communities of Eastern and South Eastern Melbourne since 1972. We pride ourselves on providing excellent standards of healthcare in a friendly and caring environment.",
+    "show":  true
+}
+
+###
+DELETE  http://localhost:8080/api/deleteContent
+Content-Type: application/json
+
+{
+    "name": "Khalid"
+}
+
+###
+PUT  http://localhost:8080/api/editContent
+Content-Type: application/json
+
+{
+    "_id" : "61360dd80945711d2ef7a1aa",
+    "type": "Education",
+    "icon": "icon/health.png",
+    "name":"Khalid",
+    "position":[
+        {
+            "coordinates": [145.1154112021440, -37.847884846591390],
+            "height" : 50
+        }
+    ],
+    "imgs":[
+        {
+            "imgSrc":  "https://bit.ly/33BvR19",
+            "picSrc":  "https://i.ytimg.com/vi/RjYk8ziP7po/maxresdefault.jpg"
+        }
+    ],
+    "link":  "https://www.waverleyprivate.com.au",
+    "desc":  "FINAL1",
+    "show": true
+}

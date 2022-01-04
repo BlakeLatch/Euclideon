@@ -1,0 +1,6 @@
+/* These are for the overall webpage design, text size, font, icons and buttons so on. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
